@@ -6,7 +6,8 @@ namespace lib
     public class Seat
     {
         [Key]
-        public string ID {get;set;}
+        public int ID {get;set;}
+        public string Name {get;set;}
         public Flight Flight {get;set;}
         public int Occupied  {get;set;}
         public int Cost {get;set;}

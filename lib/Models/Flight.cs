@@ -19,7 +19,7 @@ namespace lib
         public int FirstClass{get;set;}
         public int EconomyClass {get;set;}
         public int BusinessClass{get;set;}
-        public List<Seat> Seats = new List<Seat>();
+        public List<Seat> Seats {get; set;} = new List<Seat>();
 
         
     }
